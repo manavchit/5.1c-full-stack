@@ -1,0 +1,94 @@
+
+
+.selectPostType {
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: row;
+    height: 30px;
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 1.2em;
+    display: inline-flex;
+    padding: 10px;
+    border-radius: 0px;
+}
+
+.radioButton{
+    margin-left: 30px;
+    margin-right: 60px;
+}
+
+.formstart {
+    justify-content: center;
+    display: inline-flex;
+    width: 100%;
+    max-width: 1000px;
+    margin-top: 30px;
+    flex-direction: row;
+    padding: 10px;
+    background:rgb(200,199,199);
+}
+
+.formitems{
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: row;
+    height: 30px;
+    margin-right: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+    font-size: 1.5em;
+    word-spacing: 4px;
+
+}
+
+.myText {
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: row;
+    height: 30px;
+    width: 100%;
+    max-width: 1000px;
+    font-weight: bold;
+    display: inline-flex;
+    padding: 10px;
+    border-radius: 0px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.button {
+   
+    flex-direction: row;
+    width: 100%;
+    max-width: 1000px;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 1.2em;
+    display: inline-flex;
+    padding: 10px;
+    border-radius: 0px;
+}
+
+.button .buttonDesign{
+    margin-top: 20px;
+    margin-left: auto;
+    border: none;
+    background: rgb(120, 115, 115);
+    color: black;
+    border-color: rgb(200, 199, 199);
+    letter-spacing: 1px;
+    width: 150px;
+    margin-right: 0px;
+    float: right;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    cursor: pointer;
+}
+
+.button .buttonDesign:hover {
+    background-color: #242323;
+    color: antiquewhite;
+}
